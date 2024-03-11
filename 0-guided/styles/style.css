@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html, body {
+  background-color: #282828;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-items: center;
+}
+
+.card {
+  background-color: #fff;
+  width: 25%;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  border-radius: 1.5%;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+.card__background {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card__background__img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  object-fit: cover;
+}
+.card__profile__img {
+  position: relative;
+  z-index: 1;
+  bottom: 100%;
+  margin-bottom: -20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+.card__profile-info__name {
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -15%;
+}
+.card__profile-info__bio {
+  text-align: center;
+  padding: 2%;
+}
+.card__socials {
+  padding: 20px;
+  text-align: center;
+}
+.card__socials__icon {
+  padding: 0% 5%;
+  font-size: 2rem;
+  color: #ED1ABE;
+  cursor: pointer;
+}
+.card__socials__icon:hover {
+  color: #31006B;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
