@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: black;
+}
+.container {
+    text-align: center;
+    display: grid;
+    background-color: #3f3d3d;
+    width: 300px;
+    margin: 10% auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+figure img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+figure h2 {
+    color: white;
+    font-weight: 50;
+    padding-top: 30px;
+    font-size: 26px;
+}
+figure h4 {
+    color: rgb(220, 220, 8);
+    font-weight: 100;
+    padding-top: 10px;
+    font-size: 16px;
+}
+figure p {
+    color: rgb(199, 198, 198);
+    font-weight: 100;
+    padding-top: 30px;
+}
+.buttons {
+    padding-top: 20px;
+}
+.buttons ul li button {
+    background-color: #595656;
+    margin: 0.3%;
+    border-radius: 10px;
+    width: 275px;
+    padding: 14px;
+    color: white;
+    margin-bottom: 13px;
+    border: none;
+    font-weight: 500;
+}
+.buttons ul li {
+    list-style-type: none;
+}
+.buttons ul li button:hover {
+    background-color: yellow;
+    color: black;
+}
