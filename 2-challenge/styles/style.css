@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  width: 400px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 500px;
+  border-radius: 10px;
+}
+.container__header {
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+}
+.container__header__icon {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  font-size: 30px;
+  color: #fff;
+}
+.container__header__info {
+  padding: 15px;
+}
+.container__header__info__price {
+  font-size: 35px;
+}
+.container__header__info__address {
+  color: #78767B;
+}
+.container__header__info h5 {
+  color: #575957;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.container__info {
+  display: grid;
+  justify-content: center;
+  align-content: space-between;
+  padding: 13px;
+  line-height: 1.5;
+  color: #78767B;
+}
+.container__footer {
+  text-align: left;
+  padding: 5px;
+  position: relative;
+}
+.container__footer__title {
+  color: #78767B;
+  font-size: 17px;
+}
+.container__footer__img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.container__footer__info {
+  position: relative;
+  display: flex;
+}
+.container__footer__info__name {
+  position: absolute;
+  left: 13%;
+  font-weight: bolder;
+}
+.container__footer__info__number {
+  position: absolute;
+  top: 35%;
+  left: 13%;
+  color: #78767B;
+}
+
+span {
+  color: black;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
