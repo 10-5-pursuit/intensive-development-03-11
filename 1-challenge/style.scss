@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+html body {
+    width: 100vw;
+    height: 100hw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+
+    
+}
+.profile-parent {
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: rgb(49, 46, 46);
+    border: 5px solid black;
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    text-align: center;
+}
+.profile-image img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 50%;
+    display: block;
+   margin: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.user-name {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: -5%;
+}
+.location {
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(171, 229, 12);
+    font-weight: bold;
+    padding: 5px;
+}
+.occupation {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    color: wheat;
+}
+.all-categories {
+    padding: 4px;
+}
+
+.all-categories ul li button {
+    position: relative;
+    background-color: rgb(60, 57, 57);
+    color: white;
+    width: 280px;
+    padding: 10px;
+    height: 45px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+.all-categories ul li {
+    list-style-type: none;
+}
+.all-categories ul li button:hover {
+    background-color: rgb(166, 209, 11);
+    color: darkslategrey;
+}
