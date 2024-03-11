@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 400px;
+    font-family: "PT Sans", sans-serif;
+}

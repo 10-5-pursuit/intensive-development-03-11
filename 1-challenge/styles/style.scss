@@ -1,0 +1,73 @@
+@import "./setup";
+
+body {
+    background: #141414;
+    font-family: sans-serif;
+}
+.container {
+    padding: 10px;
+    padding-top: 50px;
+    border: 0;
+    outline: 0;
+    width: 500px;
+    background: #1F1F1F;
+    color: #fff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(2 , auto);
+
+    &__main {
+        // border: 2px solid white;
+        height: 400px;
+
+        &__links {
+            display:grid;
+            gap: 15px;
+            justify-content: center;
+            align-content: center;
+            margin-top: 30px;
+            position: relative;
+
+            &__socials {
+                width: 230%;
+                position: relative;
+                left: -65%;
+                padding: 14px;
+                border-radius: 10px;
+                cursor: pointer;
+                background: #333333;
+                border: 0;
+                outline: 0;
+                color: #fff;
+                font-weight: 600;
+            }
+
+            &__socials:hover {
+                background-color: greenyellow;
+                color: black;
+            }
+        }
+
+        h3 {
+            margin-top: 27px;
+            font-size: 25px;
+        }
+
+        &__place {
+            margin-top: 9px;
+            color: greenyellow;
+        }
+
+        &__info {
+            margin-top: 10px;
+            font-size: 14px; 
+        }
+    }
+
+    &__main img{
+        border-radius: 50%;
+        width: 100px;
+    }
+
+}
+

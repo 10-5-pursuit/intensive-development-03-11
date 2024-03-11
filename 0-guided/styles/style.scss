@@ -1,0 +1,92 @@
+@import "./setup";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 20px;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 400px;
+    font-family: "PT Sans", sans-serif;
+}
+
+.card {
+    // border: 2px solid ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "header"
+    "pfp"
+    "info"
+    "footer"
+    ;
+    background: #EEEEEE;
+    height: 600px;
+
+    &__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__img {
+            grid-area: header;
+            width: 100%;
+        }
+    }
+
+    &__info {
+        position: relative;
+        position: relative;
+        box-sizing: content-box;
+        height: 200px;
+        text-align: center;
+        padding: 5px;
+
+        &__profile {
+            border-radius: 50%;
+            position: relative;
+            top: -100px;
+            border: 10px solid white;
+        }
+
+        &__main {
+            position: relative;
+            top: -55px;
+        }
+
+    }
+
+    &__footer {
+        position: absolute;
+        bottom: 8%;
+        display: flex;
+        grid-area: footer;
+        justify-content: space-between;
+        width: 200px;
+        left: 24%;
+
+    }
+}
+
+h2 {
+    position: absolute;
+    top: 57%;
+    left: 31%;   
+}
+
+i {
+    color: #F200BA;
+}
+
+
+
