@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #ccc;
+    height: 100vh;
+    width: 100vw;
+}
+article {
+    position: relative;
+    font-size: 30px;
+    background-color: white;
+    text-align: start;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    width: 32%;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+article figure i {
+    position: absolute;
+    color: white;
+    left: 91%;
+    bottom: 94%;
+}
+.property-image img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.house-descript {
+    padding: 30px;
+    font-size: 75%;
+}
+.house-descript .darker {
+    color: rgb(92, 91, 91);
+}
+.house-descript p {
+    color: gray;
+    margin-bottom: 20px;
+}
+.house-descript h1 {
+    font-size: 200%;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+
+.bedrooms-bathrooms {
+    padding: 30px;
+    font-size: 85%;
+}
+.bedrooms-bathrooms p span {
+    color: black;
+}
+.bedrooms-bathrooms p {
+    color: gray;
+}
+.bedrooms-bathrooms p i {
+    margin-right: 20px;
+    color: rgb(93, 90, 90);
+}
+.bedrooms-bathrooms p {
+    display: inline-block;
+}
+.bedrooms-bathrooms .spaced {
+    margin-right: 25%;
+}
+
+
+.realtor {
+    padding: 30px;
+    font-size: 60%;
+}
+.realtor p {
+    color: gray;
+}
+.realtor img {
+    border-radius: 50%;
+    width: 60px;
+    height: 65px;
+    margin-right: 10px;
+}
+.realtor h3 {
+    color: black;
+}
+.realtor .realH3 {
+    color: gray;
+    margin-bottom: 20px;
+}
+.realtor span {
+    display: inline-block;
+}
