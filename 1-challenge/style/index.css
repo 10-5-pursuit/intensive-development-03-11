@@ -1,3 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
 
+html, body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-content: center;
+  justify-items: center;
+  background-color: black;
+}
+
+.card-container {
+  background-color: black;
+  width: 350px;
+  height: 375px;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: #1E1E1E;
+  width: 300px;
+  height: 550px;
+  padding: 25px;
+  border-radius: 15px;
+}
+.card__image {
+  width: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 25px;
+}
+.card__name {
+  color: #FCFCFC;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.card__address {
+  color: #A8C543;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.card__job-desc {
+  color: #CCCCCC;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  font-size: small;
+}
+.card__button-list {
+  padding: 8px;
+  font-size: 14px;
+  color: #FFF;
+  background-color: #1E1E1E;
+  border: 1px solid #1E1E1E;
+  border-radius: 5px;
+  margin-bottom: 1px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  cursor: pointer;
+}
+.card__button:hover {
+  background-color: #C4F82D;
+  color: #1E1E1E;
+}
+.card__card-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card__button {
+  background-color: #333333;
+  text-align: center;
+  border: none;
+  color: #F5F5F5;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=index.css.map */
