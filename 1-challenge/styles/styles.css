@@ -1,0 +1,57 @@
+.card {
+  background-color: #333;
+  color: #eee;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.card .profile-image {
+  margin-bottom: 20px;
+}
+.card .profile-image img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.card .profile-info h1 {
+  margin: 0;
+  padding: 0;
+}
+.card .profile-info p:first-of-type {
+  font-size: 0.9em;
+  margin: 5px 0;
+  color: hsl(72, 100%, 50%);
+}
+.card .profile-info .bio {
+  font-style: normal;
+}
+.card .social-links .btn {
+  display: block;
+  background-color: #333;
+  color: #eee;
+  text-decoration: none;
+  padding: 10px 0;
+  margin: 10px 0;
+  border: 2px solid transparent;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 7px;
+}
+.card .social-links .btn:hover {
+  background-color: hsl(72, 100%, 50%);
+  color: #333;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: "Arial", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
