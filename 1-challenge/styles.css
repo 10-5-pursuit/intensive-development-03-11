@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+
+html, body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-items: center;
+}
+
+.container {
+  background-color: #191818;
+  width: 23%;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  row-gap: 20px;
+  border-radius: 5%;
+  padding: 40px 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.profile-img img {
+  width: 100px;
+  position: relative;
+  z-index: 1;
+  bottom: 100%;
+  margin-bottom: -35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.profile-info h2 {
+  color: white;
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15%;
+}
+.profile-info h4 {
+  color: yellowgreen;
+  position: relative;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 5%;
+}
+.profile-info p {
+  color: rgb(146, 139, 139);
+  position: relative;
+  text-align: center;
+  margin-top: 10%;
+  text-align: center;
+  padding: 2%;
+}
+
+.social-links {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 120%;
+  font-size: 1rem;
+  grid-row: 3/span 1;
+}
+.social-links a {
+  padding: 20px 0;
+  list-style: none;
+  color: white;
+  background-color: #282828;
+  width: 300px;
+  height: 45px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  border-radius: 5%;
+  margin: 0 120px 10px;
+  box-sizing: border-box;
+}
+.social-links a:hover {
+  background-color: yellowgreen;
+  transform: scale(1);
+  color: #191818;
+}/*# sourceMappingURL=styles.css.map */
