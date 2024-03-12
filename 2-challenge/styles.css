@@ -24,15 +24,8 @@ html, body {
   padding: 40px 20px;
   text-align: center;
   justify-content: center;
-  background-color: white;
-  box-shadow: rgb(235, 233, 233);
-}
-.container i {
-  color: white;
-  position: absolute;
-  left: 700px;
-  bottom: 450px;
-  font-size: 30px;
+  background-color: #f5f2f2;
+  box-shadow: rgb(249, 247, 247);
 }
 
 .bg-img {
@@ -70,16 +63,20 @@ html, body {
 }
 
 .links {
-  margin: 0 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row: 3/span 1;
-  border-bottom: 1px solid rgb(192, 180, 180);
-  border-top: 1px solid rgb(150, 143, 143);
-}
-.links p {
-  font-size: medium;
+  font-size: large;
   color: lightgray;
+  padding: 20px 0;
+  color: gray;
+  background-color: white;
+  width: 400px;
+  height: 45px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
 }
 
 .realtor img {
@@ -96,7 +93,11 @@ html, body {
   margin-left: -250px;
 }
 
+.name {
+  margin: -50px 10px 10px;
+}
+
 .phone {
-  top: 50px;
+  top: 70px;
   color: gray;
 }/*# sourceMappingURL=styles.css.map */
