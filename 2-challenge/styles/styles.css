@@ -1,0 +1,89 @@
+.card {
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+.card .card-header {
+  position: relative;
+}
+.card .card-header img {
+  width: 100%;
+  height: auto;
+}
+.card .card-header .favorite-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #fff;
+}
+.card .card-body {
+  background-color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+.card .card-body h2 {
+  color: #333;
+  font-size: 1em;
+  margin: 0;
+  font-weight: bold;
+}
+.card .card-body .price {
+  color: #333;
+  font-size: 1.5em;
+  margin: 5px 0;
+}
+.card .card-body .address {
+  color: #777;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+.card .card-body .features {
+  display: flex;
+  justify-content: space-around;
+}
+.card .card-body .features .feature {
+  display: flex;
+  align-items: center;
+}
+.card .card-body .features .feature img {
+  margin-right: 5px;
+}
+.card .card-footer {
+  background-color: #f8f8f8;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+.card .card-footer .realtor-info {
+  display: flex;
+  align-items: center;
+}
+.card .card-footer .realtor-info img {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+.card .card-footer .realtor-info .realtor-name {
+  color: #333;
+  font-size: 1em;
+  margin: 0;
+}
+.card .card-footer .realtor-info .realtor-phone {
+  color: #999;
+  font-size: 0.8em;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ececec;
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
