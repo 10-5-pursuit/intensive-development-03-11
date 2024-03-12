@@ -1,0 +1,108 @@
+@import 'setup.scss';
+
+.card {
+    display: grid;
+    width: 25%;
+    grid-template-rows: repeat(4, auto);
+    background-color: rgb(230,230,230);
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+
+
+
+    &__image {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+
+        &__background {
+            position:relative;
+            height: 180px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        &__icon {
+            position: absolute;
+            align-self: flex-end;
+            justify-content: flex-end;
+            color: #fff;
+        }
+    }
+
+    &__info {
+
+        border-bottom: 1px solid rgba(100,100,100,.5);
+        &__title {
+            font-size: 1.1rem;
+            color: rgb(100,100,100);
+            margin: 5px 0;
+        }   
+
+        &__price {
+            font-weight: 500;
+            font-size: 1.5rem;
+            margin: 5px 0;
+        }
+
+        &__address {
+            font-size: 1.1rem;
+            color: rgb(100,100,100);
+            margin: 5px 0;
+        }
+
+        &__icon {
+            font-size: .3rem;
+            margin-bottom: -20px 0;
+        }
+    }
+
+    &__specs {
+        border-bottom: 1px solid rgba(100,100,100,.5);
+        display: flex;
+        width: fit-content;
+
+        &__info, &__icon {
+            
+            color: rgb(100,100,100);
+            margin: 0 5px;
+            font-size: 1.1rem;
+        }
+
+        &__num {
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+        
+    }
+
+    &__contact {
+        display: flex;
+
+        &__title {
+            color: rgb(100,100,100);
+            align-self: flex-start;
+            justify-self: start;
+        }
+
+        &__image {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            justify-self: end;
+            align-self: flex-start;
+        }
+
+        &__info {
+            align-self: flex-end;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        &__num {
+            color: rgb(100,100,100);
+            align-self: flex-end;
+        }
+    }
+}
