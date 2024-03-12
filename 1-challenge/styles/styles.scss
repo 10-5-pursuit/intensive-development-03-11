@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+    background-color: #141414;
+}
+.card-container {
+    width: 45%;
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    border-radius: 1.5%;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    background-color: #1F1F1F;
+}
+.profile-img img {
+    width: 30%;
+    position: relative;
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border-radius: 50%;
+}
+.profile-img img:hover{
+    transform: scale(1.2);
+}
+.profile-info{
+    text-align: center;
+    color: white;
+    .profile-name{
+        padding: 2%;
+        font-size: 20px;
+    }
+    .profile-location{ 
+        color: #C5F72C;
+        font-size: 12px;
+        margin-bottom: 7%;
+    }
+    .profile-bio{
+        font-size: 11px;
+        color: #ccc8c8;
+        margin-bottom: 5%;
+    }
+}
+ul{
+    li{
+        text-align: center;
+        list-style: none;
+        color: white;
+        font-size: 10px;
+        background-color: #333333;
+        font-weight: 400;
+        margin: 4%;
+        margin-left: 11%;
+        margin-right: 11%;
+        border-radius: 5%;
+        padding: 3%;
+        cursor: pointer;
+        
+    }
+    li:hover{
+        background-color: #C5F72C;
+        color: #333333;
+        font-size: 15px;
+        font-weight: 900;
+    }
+}
