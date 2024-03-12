@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins' sans-serif ;
+   
+}
+html, body {
+    background-color: rgb(244, 237, 237);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+}
+.container {
+    height: 700px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    border-radius: 3%;
+    padding: 40px 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: rgb(235, 233, 233);
+    i {
+        color: white;  
+        position: absolute;
+        left:700px;
+        bottom: 450px;
+       font-size: 30px;
+      }
+   
+}
+.bg-img{
+    display: flex;
+    flex-direction: column;
+    img{
+    width: 400px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    position: relative;
+    bottom: 100%;
+    margin-bottom: -70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    } 
+   
+}
+
+.info {
+    padding: 20px;
+    color: rgb(146, 139, 139);
+    text-align: left;
+      h2{
+        position: relative;
+        text-align: center;
+        color: rgb(49, 47, 47);
+        top: 100px;
+        text-align: left;
+      }
+    p {
+        position: relative;
+        margin-top: 10%;
+        top: 90px;
+       
+  }
+  }
+  .links{
+    margin: 0 10px ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: 3 / span 1;
+    border-bottom:1px solid rgb(192, 180, 180);
+    border-top:1px solid rgb(150, 143, 143);
+  
+    p{
+        font-size: medium;
+        color: lightgray;
+    }
+  }
+.realtor {
+    img {
+    width: 100px;
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-left: 5%;
+    border-radius: 100%;
+    bottom: -10%;
+    }
+    h4{
+        color: gray;
+       margin-left: -250px;
+    }
+  }
+  .phone{
+    top: 50px;
+    color: gray;
+  }
+ 
