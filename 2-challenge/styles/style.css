@@ -1,0 +1,98 @@
+.listing {
+  position: relative;
+  border: 1px solid #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+.listing .fa-heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  color: white;
+  font-size: 24px;
+}
+.listing__bgpic {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.listing__description {
+  padding-left: 20px;
+  padding-top: 15px;
+  margin: 5px 0;
+  color: #5F646F;
+  font-size: 12px;
+  font-weight: bold;
+}
+.listing__price {
+  font-size: 24px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin: 5px 0;
+}
+.listing__address {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #5F646F;
+  margin: 5px 0;
+}
+.listing__bb-container {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.listing__bedrooms {
+  padding-left: 20px;
+  margin: 5px 0;
+  flex: 1;
+  color: #5F646F;
+}
+.listing__bedrooms span {
+  font-weight: bold;
+}
+.listing__bathrooms {
+  padding-left: 20px;
+  margin: 0px 0;
+  flex: 1;
+  color: #5F646F;
+}
+.listing__bathrooms span {
+  font-weight: bold;
+}
+.listing__realtor {
+  padding-left: 20px;
+  padding-top: 15px;
+  margin: 5px 0;
+  color: #5F646F;
+  font-size: 12px;
+  font-weight: bold;
+}
+.listing__realtor-name {
+  padding-left: 20px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+.listing__realtor-telnumber {
+  padding-left: 20px;
+  margin: 5px 0;
+  color: #5F646F;
+}
+.listing____piccontainer {
+  margin-left: 25px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.listing__realtor-profilepic {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
