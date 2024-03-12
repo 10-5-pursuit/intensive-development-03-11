@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #5C6375;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin: 0;
+}
+
+.ad-container {
+    width: 500px;
+    height: 625px;
+    background-color: whitesmoke;
+    margin: 2px;  
+    position: relative;
+    border-radius: 15px;
+}
+
+.image__main {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-content: center;
+    justify-items: center;
+    overflow: hidden;
+    position: relative;
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    &__heart {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+}
+
+.house {
+    font-family: sans-serif;
+    color: #333; // Adjust for better contrast
+    margin-left: 25px;
+    margin-top: 20px;
+
+    &__desc {
+        font-weight: bold;
+        letter-spacing: 1.5px;
+    }
+
+    &__price {
+        margin-top: 5px;
+        font-size: 35px;
+        letter-spacing: 1.5px;
+    }
+
+    &__address {
+        margin-top: 5px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+}
+
+.hr {
+    color: darkgray;
+}
+.house-rooms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    p {
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        margin-right: 5px;
+    }
+}
+
+.realtor__details {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.realtor_div {
+    font-weight: bold;
+    margin-right: 10px;  
+    position: absolute;
+    top: 0;
+}
+
+.realtor__content {
+    display: flex;
+    align-items: center;
+}
+
+.realtor__img-container {
+    margin-right: 25px;  
+    margin-top: 30px;
+}
+
+.realtor__details__img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.realtor__info {
+    display: flex;
+    flex-direction: column;
+
+    &__name {
+        font-size: 18px;
+        margin-bottom: 5px;
+        margin-top: 18px;
+        font-weight: bold;
+    }
+
+    &__phone {
+        font-size: 16px;
+    }
+}
