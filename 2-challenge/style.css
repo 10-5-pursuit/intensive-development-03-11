@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: center;
+  background-color: rgb(195, 203, 215);
+}
+
+.rental-container {
+  position: relative;
+  height: 100%;
+  width: 30%;
+  display: grid;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2%;
+  grid-template-rows: repeat(4, auto);
+}
+.rental-container h6 {
+  color: gray;
+  padding: 7px;
+  padding-left: 13px;
+}
+.rental-container__background img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  object-fit: cover;
+}
+.rental-container__house-title {
+  display: inline-flex;
+  gap: 6px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: gray;
+}
+.rental-container__house-title ul {
+  position: relative;
+  bottom: 3px;
+  left: 15px;
+  color: gray;
+}
+.rental-container__house-info .cost {
+  font-size: x-large;
+  font-weight: 100;
+  padding: 5px;
+  padding-left: 12px;
+  border: none;
+}
+.rental-container__house-info .address {
+  color: gray;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+}
+.rental-container__amenities {
+  position: relative;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+}
+.rental-container__amenities .first {
+  grid-column: 1/2;
+  color: gray;
+  padding: 13px;
+  padding-left: 15px;
+}
+.rental-container__amenities .first span {
+  color: black;
+}
+.rental-container__amenities .second {
+  grid-column: 2/3;
+  color: gray;
+  padding: 14px;
+}
+.rental-container__amenities .second span {
+  color: black;
+}
+.rental-container__realtor-info {
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.rental-container__realtor-info img {
+  height: 50%;
+  width: 20%;
+  border-radius: 40%;
+  padding: 4px;
+}
+.rental-container__realtor-info span {
+  color: black;
+}
+.rental-container__realtor-info p {
+  position: relative;
+  display: grid;
+  padding-bottom: 30px;
+}
+.rental-container__realtor-info .number {
+  position: relative;
+  top: 20px;
+  right: 38%;
+}
+
+/*# sourceMappingURL=style.css.map */
