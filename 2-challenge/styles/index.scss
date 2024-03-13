@@ -10,5 +10,116 @@
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-color: $background;
+    background-color: lightgrey;
+    
+  }
+
+  .card{
+    // Grid
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+    // Style
+    padding-bottom: 2%;
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+
+    // Position
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+
+    &__img{
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+
+    &__description{
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 3%;
+        margin-right: auto;
+        margin-left: 2%;
+    }
+
+    &__price{
+        font-size: 50px;
+        padding-top: 3%;
+        margin-right: auto;
+        margin-left: 2%;
+    }
+
+    &__location{
+        font-size: 20px;
+        // padding-top: 3%;
+        margin-right: auto;
+        margin-left: 2%;
+    }
+
+    &__details{
+        width: 100%;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        margin-top: 3%;
+        margin-bottom: 1%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__details-item{
+        font-size: 30px;
+        
+        i{
+            font-size: 40px;
+            color: gray;
+            // padding-right: 1%;
+        }
+    }
+
+    &__realtor{
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 2%;
+
+      &:hover{
+        cursor: pointer;
+      }
+    }
+
+    &__realtor-title{
+        // grid-column: span 3;
+        margin-bottom: 1%;
+    }
+
+    &__realtor-details{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    &__realtor-img{
+        border-radius: 50%;
+        width: 50%;
+        grid-row: span 2;
+        // margin-right: auto;
+        // margin-left: auto;
+    }
+    
+    &__realtor-name{
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    
+    &__realtor-phone{
+        margin: 0;
+        padding: 0;
+    }
+    
   }
