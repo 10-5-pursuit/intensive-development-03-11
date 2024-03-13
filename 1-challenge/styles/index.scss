@@ -1,0 +1,91 @@
+$background: #141414;
+$card-bg:#1f1f1f;
+$item-bg: #333333;
+$text-color: #ffffff;
+$accent: #c5f82c;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+  }
+  
+  html,
+  body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: $background;
+  }
+
+  .card{
+    // Grid
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+    // Style
+    border-radius: 20px;
+    padding: 2%;
+    background-color: $card-bg;
+    width: 30%;
+    // Position
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    
+    // position: absolute;
+    // top: 10%;
+    // left: 10%;
+
+    &__img{
+        border-radius: 50%;
+        width: 40%;
+        padding: 5%;
+    }
+
+    &__name{
+        font-size: 32px;
+        font-weight: 300;
+        color: $text-color;
+        padding-bottom: 1%;
+    }
+
+    &__location{
+        font-size: 15px;
+        font-weight: 100;
+        padding-bottom: 10%;
+        color: $accent;
+
+    }
+
+    &__description{
+        font-size: 15px;
+        font-weight: 100;
+        color: $text-color;
+    }
+
+    &__socials{
+        color: $background;
+        color: $text-color;
+        width: 100%;
+        
+    }
+    
+    &__socials-item{
+        font-size: 20px;
+        background-color: $item-bg;
+        text-align: center;
+        margin-top: 5%;
+        padding: 5%;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: $accent;
+            color: $item-bg;
+        }
+    }
+  }
